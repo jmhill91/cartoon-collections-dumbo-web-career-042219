@@ -21,4 +21,5 @@ def find_the_cheese(newArr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   newArr.find do |ingred|
     cheese_type.include?(ingred)
+  end
 end
