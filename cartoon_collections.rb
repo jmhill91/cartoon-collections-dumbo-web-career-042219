@@ -11,7 +11,8 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  # Your code here
+ arr.any? do |word|
+   word.length 
 end
 
 def find_the_cheese# code an argument here
